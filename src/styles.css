@@ -28,11 +28,17 @@ h2 {
     font-size: 24px;
 }
 
+
 .dev-info {
     margin-top: 350px;
 }
 
-
+.btn-primary {
+    border: 1px solid blue;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 20px;
+}
 
 
 .transparent {
@@ -52,14 +58,11 @@ h2 {
     /* opacity: 0.1; */
     /* color: black; */
     text-align: right;
-
 }
 
 .black-text {
     /* color: rgba(0, 0, 0, 1); */
-    color: rgba(128, 128, 128, 1);
-    
-       
+    color: rgba(128, 128, 128, 1);      
 }
 
 
