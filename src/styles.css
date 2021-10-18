@@ -2,16 +2,19 @@
 
 
 /* best image size at least or so: 6016px x 4016px */
+
 body {
     background-image: url("/images/computer-woman-wall.jpg");
     background-position: center center; 
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     /* background-size: 100% 100%; */
     background-size: cover;
     background-color: gray;
     /* overflow: hidden;   */
 }
+
+
 
 h1, h2, h3 {
     color: white; 
@@ -99,6 +102,11 @@ p {
 }
 
 @media (max-width: 760px) {
+    .dev-info {
+        line-height: 1;
+        margin-top: 175px;
+    }
+
     .footer {
         background-color: rgb(155, 155, 155);
     }
