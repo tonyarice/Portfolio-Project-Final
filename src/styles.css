@@ -63,7 +63,8 @@ h2 {
     bottom: 0;
     padding-right: 10px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
+    
+    /* background-color: rgba(255, 255, 255, 0); */
     
     /* opacity: 0.1; */
     /* color: black; */
@@ -73,6 +74,16 @@ h2 {
 .black-text {
     /* color: rgba(0, 0, 0, 1); */
     color: rgba(128, 128, 128, 1);      
+}
+
+@media (max-width: 960px) {
+    .footer {
+        background-color: rgb(155, 155, 155);
+    }
+
+    .black-text {
+        color: rgba(0, 0, 0, 1);    
+    }
 }
 
 
