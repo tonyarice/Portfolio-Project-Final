@@ -1,3 +1,7 @@
+
+
+
+/* best image size at least or so: 6016px x 4016px */
 body {
     background-image: url("/images/computer-woman-wall.jpg");
     background-position: center center; 
@@ -6,12 +10,8 @@ background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
     background-color: gray;
-    overflow: hidden;  
+    /* overflow: hidden;   */
 }
-
-/* best image size at least or so: 6016px x 4016px */
-
-
 
 h1, h2 {
     color: white; 
@@ -40,6 +40,16 @@ h2 {
     padding: 15px 20px;
 }
 
+.projects h1 {
+    font-size: 35px;
+    margin-top: 75px;
+    display: block;
+     
+}
+
+.product-description {
+    background-color:rgb(78, 78, 78);
+}
 
 .transparent {
     background-color: #ffffff;
