@@ -95,6 +95,16 @@ p {
 .container-icons {
     background: black;
 }
+
+hr {
+    color: gray;
+}
+
+.certifications p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+}
 .transparent {
     background-color: #ffffff;
     opacity: 0.4;
