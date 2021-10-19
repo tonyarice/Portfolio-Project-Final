@@ -1,6 +1,4 @@
 
-
-
 /* best image size at least or so: 6016px x 4016px */
 
 body {
@@ -14,8 +12,6 @@ body {
     /* overflow: hidden;   */
 }
 
-
-
 h1, h2, h3 {
     color: white; 
     text-align: center;
@@ -23,8 +19,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 96px;
-    
+    font-size: 96px;  
 }
 
 h2 {
@@ -48,6 +43,27 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 20px;
+}
+
+.about-me h2 {
+    font-size: 35px;
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.about-me p {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 0 75px 0 75px;
+    background: black;  
+}
+
+.transparent-field {
+    background-color: #ffffff;
+    opacity: 0.6;
 }
 
 .projects h1 {
@@ -76,6 +92,9 @@ p {
     background-color:rgb(36, 35, 35);
 } */
 
+.container-icons {
+    background: black;
+}
 .transparent {
     background-color: #ffffff;
     opacity: 0.4;
@@ -99,6 +118,10 @@ p {
 .black-text {
     /* color: rgba(0, 0, 0, 1); */
     color: rgba(128, 128, 128, 1);      
+}
+
+.white-text {
+    color: white
 }
 
 @media (max-width: 760px) {
