@@ -45,19 +45,19 @@ p {
     padding: 15px 20px;
 }
 
-.about-me h2 {
+.about-section h2 {
     font-size: 35px;
     display: block;
     margin-top: 150px;
     margin-bottom: 50px;
 }
 
-.about-me p {
+.about-section p {
     display: block;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
-    margin-top: 25px;
-    padding: 0 75px 0 75px;
+    margin: 25 auto;
+    padding: 0 350px 0 350px;
     background: black;  
 }
 
@@ -118,11 +118,9 @@ hr {
     padding-right: 10px;
     width: 100%;
     text-align: right;
-    /* background-color: rgba(255, 255, 255, 0); */
-    
+    /* background-color: rgba(255, 255, 255, 0); */  
     /* opacity: 0.1; */
     /* color: black; */
-    
 }
 
 .black-text {
@@ -146,6 +144,12 @@ hr {
 
     .black-text {
         color: rgba(0, 0, 0, 1);    
+    }
+
+    .about-section p {
+        text-align: center;
+        padding: 0;
+         
     }
 }
 
