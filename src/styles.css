@@ -132,7 +132,7 @@ hr {
     color: white
 }
 
-@media (max-width: 760px) {
+@media (max-width: 960px) {
     .dev-info {
         line-height: 1;
         margin-top: 175px;
