@@ -135,6 +135,11 @@ hr {
     /* color: black; */
 }
 
+.footer .photo-credit {
+    font-style: italic;
+    margin-top: 5px;
+}
+
 .black-text {
     /* color: rgba(0, 0, 0, 1); */
     color: rgba(128, 128, 128, 1);      
