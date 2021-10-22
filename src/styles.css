@@ -2,7 +2,7 @@
 /* best image size at least or so: 6016px x 4016px */
 
 body {
-    background-image: url("/images/computer-woman-wall.jpg");
+    background-image: url("/images-2/hollins2.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: white; 
+    color: #F7F9FB; 
     text-align: center;
     font-weight: lighter;
 }
@@ -31,24 +31,27 @@ h3 {
 }
 
 p {
-    color: white;
+    color: #F7F9FB;
 }
 
 .dev-info {
     margin-top: 350px;
 }
 
-.btn-primary {
-    border: 1px solid blue;
+.btn-branding {
+    border: 1px solid #8E8268;
+    background-color: #8E8268;
+    color: #F7F9FB;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 20px;
 }
 
 .about-section h2 {
+    color: #F7F9FB;
     font-size: 35px;
     display: block;
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 50px;
 }
 
@@ -57,14 +60,17 @@ p {
     font-size: 17px;
     text-align: center;
     margin: 25 auto;
-    padding: 0 350px 0 350px;
-    background: black;  
+    padding: 0 150px 0 150px;
+    /* background: rgba(0, 0, 0, 0.9) */
+    /* background: lightgrey; */
 }
 
 .transparent-field {
-    background-color: #ffffff;
-    opacity: 0.6;
+    /* background-color: #ffffff;
+    opacity: 0.6; */
+    background: rgba(0, 0, 0, 0.5)
 }
+
 
 .projects h1 {
     font-size: 35px;
@@ -82,10 +88,14 @@ p {
     margin-bottom: 3px;
 }
 
-.project-description .btn-primary {
-    font-size: 11px;
+.project-description .btn-branding {
+    font-size: 14px;
     margin-top: 10px;
     padding: 5px;
+}
+
+.project-description h3 p {
+    color: #F7F9FB;
 }
 
 /* .project-description {
@@ -105,9 +115,11 @@ hr {
     font-style: italic;
     font-size: larger;
 }
+
 .transparent {
     background-color: #ffffff;
-    opacity: 0.4;
+    opacity: 0.5;
+    /* background: rgba(0, 0, 0, 0.9) */
 }
 
 .footer {
@@ -132,6 +144,15 @@ hr {
     color: white
 }
 
+/* depending upon background image */
+.hyperlink-line {
+    color: rgb(209, 209, 209);
+}
+
+.hyperlink-line:hover {
+    color: greenyellow;
+}
+
 @media (max-width: 960px) {
     .dev-info {
         line-height: 1;
@@ -148,9 +169,13 @@ hr {
 
     .about-section p {
         text-align: center;
-        padding: 0;
-         
+        padding: 0;   
     }
+
+    .certifications {
+        text-align: center;
+    }
+ 
 }
 
 
