@@ -2,7 +2,7 @@
 /* best image size at least or so: 6016px x 4016px */
 
 body {
-    background-image: url("/images-2/hollins2.jpg");
+    background-image: url("/images-2/techpic3.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,7 +68,7 @@ p {
 .transparent-field {
     /* background-color: #ffffff;
     opacity: 0.6; */
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(205, 133, 63, 0.6)
 }
 
 
@@ -157,6 +157,17 @@ hr {
 .hyperlink-line:hover {
     color: greenyellow;
 }
+
+.contact-container h2 {
+    font-size: 55px;
+    margin-top: 175px;
+}
+
+.content-form {
+    text-align: center;
+}
+
+
 
 @media (max-width: 960px) {
     .dev-info {
