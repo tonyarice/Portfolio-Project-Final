@@ -98,6 +98,7 @@ p {
     color: #F7F9FB;
 }
 
+
 /* .project-description {
     background-color:rgb(36, 35, 35);
 } */
@@ -160,11 +161,15 @@ hr {
 
 .contact-container h2 {
     font-size: 55px;
-    margin-top: 175px;
+    margin-top: 650px;
 }
 
-.content-form {
-    text-align: center;
+
+.social-icons i {
+   color: #F7F9FB;
+   font-size: 25px;
+   
+   
 }
 
 
