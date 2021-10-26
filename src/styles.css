@@ -143,16 +143,23 @@ hr {
 
 .black-text {
     /* color: rgba(0, 0, 0, 1); */
-    color: rgba(128, 128, 128, 1);      
+    /* color: rgba(128, 128, 128, 1); */
+    color: rgb(22, 20, 20, 1);
 }
 
-.white-text {
-    color: white
+.footer-text {
+    /* color: white; */
+    /* color: rgb(255, 251, 2); */
+    color:rgb(170, 252, 7);
 }
+
 
 /* depending upon background image */
 .hyperlink-line {
-    color: rgb(209, 209, 209);
+    /* color: rgb(209, 209, 209); */
+    /* color: rgb(208, 253, 8); */
+    color: yellow;
+
 }
 
 .hyperlink-line:hover {
