@@ -2,7 +2,7 @@
 /* best image size at least or so: 6016px x 4016px */
 
 body {
-    background-image: url("/images-3/15.jpg");
+    background-image: url("/images/coding.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,7 +68,7 @@ p {
 .transparent-field {
     /* background-color: #ffffff;
     opacity: 0.6; */
-    background: rgba(23, 41, 29, 0.6)
+    background: rgba(23, 41, 29, 0.6);
 }
 
 
@@ -123,20 +123,35 @@ hr {
     /* background: rgba(0, 0, 0, 0.9) */
 }
 
-.footer {
+
+.footer-home {
     position: fixed;
-    padding-top: 10px;
+    padding-bottom: 5px;
     left: 0;
     bottom: 0;
-    padding-right: 10px;
     width: 100%;
-    text-align: right;
-    /* background-color: rgba(255, 255, 255, 0); */  
+    /* padding-left: 75px; */
+    /* margin-left: 1550px; */
+    
+   
     /* opacity: 0.1; */
     /* color: black; */
 }
 
-.footer .photo-credit {
+.footer-home-text {
+    /* color: white; */
+    /* color: rgb(255, 251, 2); */
+    color:rgb(170, 252, 7);text-align: right;
+    padding: 0px 4px 10px 15px;
+    /* padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 2px; */
+   background-color: rgba(23, 41, 29, 0.4);
+   display: inline;
+ 
+}
+
+.footer-home .photo-credit {
     font-style: italic;
     margin-top: 5px;
 }
@@ -147,11 +162,7 @@ hr {
     color: rgb(22, 20, 20, 1);
 }
 
-.footer-text {
-    /* color: white; */
-    /* color: rgb(255, 251, 2); */
-    color:rgb(170, 252, 7);
-}
+
 
 
 /* depending upon background image */
@@ -175,10 +186,35 @@ hr {
 .social-icons i {
    color: #F7F9FB;
    font-size: 25px;
-   
-   
 }
 
+/* footer {
+    background: rgba(23, 41, 29, 0.6);
+} */
+
+footer .email-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: yellow;
+    
+}
+
+footer .social-links a  {
+    margin: 0 20px;
+    color: whitesmoke;
+    background: rgb(170, 252, 7);
+    border-radius: 50%;
+    padding: 10px 14px;
+    /* width: 18px;
+    height: 21px; */
+    font-size: 18px;
+    text-align: center;
+}
 
 
 @media (max-width: 960px) {
@@ -187,8 +223,8 @@ hr {
         margin-top: 175px;
     }
 
-    .footer {
-        background-color: rgb(155, 155, 155);
+    .footer-home {
+        background-color: rgba(155, 155, 155, 0.6)
     }
 
     .black-text {
