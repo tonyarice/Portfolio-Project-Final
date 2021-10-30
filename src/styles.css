@@ -1,5 +1,11 @@
 
 /* best image size at least or so: 6016px x 4016px */
+:root {
+    --branding-color: #8E8268;
+    --text-color: #F7F9FB;
+    --accent-color: yellow;
+    /* --background-color: #e7717D; */
+}
 
 body {
     background-image: url("/images-3/15-wide-4.jpg");
@@ -13,7 +19,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #F7F9FB; 
+    color: var(--text-color); 
     text-align: center;
     font-weight: lighter;
 }
@@ -46,16 +52,16 @@ p {
 }
 
 .btn-branding {
-    border: 1px solid #8E8268;
-    background-color: #8E8268;
-    color: #F7F9FB;
+    border: 1px solid var(--branding-color);
+    background-color: var(--branding-color);
+    color: var(--text-color);
     font-size: 18px;
     line-height: 27px;
     padding: 15px 20px;
 }
 
 .about-section h2 {
-    color: #F7F9FB;
+    color: var(--text-color);
     font-size: 35px;
     display: block;
     margin-top: 90px;
@@ -102,7 +108,7 @@ p {
 }
 
 .project-description h3 p {
-    color: #F7F9FB;
+    color: var(--text-color);
 }
 
 
@@ -132,7 +138,7 @@ hr {
 }
 
 .contact-section h2 {
-    color: #F7F9FB;
+    color: var(--text-color);
     font-size: 55px;
     display: block;
     margin-top: 95px;
@@ -149,7 +155,7 @@ hr {
 }
 
 .contact-section a:hover {
-    color: yellow;
+    color: var(--accent-color);
 }
 
 
@@ -219,7 +225,7 @@ footer .contact {
 .hyperlink-line {
     /* color: rgb(209, 209, 209); */
     /* color: rgb(208, 253, 8); */
-    color: yellow;
+    color: var(--accent-color);
 
 }
 
@@ -234,7 +240,7 @@ footer .contact {
 
 
 .social-icons i {
-   color: #F7F9FB;
+   color: var(--text-color);
    font-size: 25px;
 }
 
@@ -269,7 +275,7 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-    color: yellow;   
+    color: var(--accent-color);   
 }
 
 footer .social-links a  {
