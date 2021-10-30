@@ -30,6 +30,13 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    font-size: 48px;
+    color: #f3e1bb;
+    font-weight: 400;
+    
+}
+
 p {
     color: #F7F9FB;
 }
@@ -108,7 +115,8 @@ p {
 }
 
 hr {
-    color: gray;
+    /* color: gray; */
+    color: rgb(23, 41, 29);
 }
 
 .certifications p {
@@ -123,6 +131,48 @@ hr {
     /* background: rgba(0, 0, 0, 0.9) */
 }
 
+.contact-section h2 {
+    color: #F7F9FB;
+    font-size: 55px;
+    display: block;
+    margin-top: 95px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+}
+
+.contact-section h3 {
+    font-size: 30px;
+}
+
+.contact-section a {
+    color: whitesmoke;
+}
+
+.contact-section a:hover {
+    color: yellow;
+}
+
+
+.contact-section p {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 42px;
+    /* margin: 25 auto;
+    padding: 0 150px 0 150px; */
+    /* background: rgba(0, 0, 0, 0.9) */
+    /* background: lightgrey; */
+}
+
+.contact-section .transparent-field {
+    /* background-color: #ffffff;
+    opacity: 0.6; */
+    background: rgba(23, 41, 29, 0.6);
+}
+
+footer .contact {
+    margin-top: 175px;
+}
 
 .footer-home {
     position: fixed;
@@ -146,7 +196,7 @@ hr {
     /* color: white; */
     /* color: rgb(255, 251, 2); */
     color:rgb(170, 252, 7);
-    padding: 0px 4px 10px 15px;
+    padding: 0px 8px 10px 15px;
    background-color: rgba(23, 41, 29, 0.5);
    display: inline;
 }
@@ -192,6 +242,25 @@ hr {
     background: rgba(23, 41, 29, 0.6);
 } */
 
+footer .inquiry {
+    background-color: rgba(23, 41, 29, 0.3);
+    padding: 30px 120px;
+    border-radius: 10px;
+    margin-top: 125px;
+    margin-left: 275px;
+    margin-right: 275px;
+    
+}
+
+footer .inquiry p {
+    margin: 0;
+    color: #f3e1bb;
+}
+
+footer .btn-branding {
+    color: #f3e1bb;
+}
+
 footer .email-link {
     text-decoration: none;
     color: whitesmoke;
@@ -200,14 +269,13 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-    color: yellow;
-    
+    color: yellow;   
 }
 
 footer .social-links a  {
     margin: 0 20px;
     color: whitesmoke;
-    background: rgb(170, 252, 7);
+    background: rgb(23, 41, 29);
     border-radius: 50%;
     padding: 10px 14px;
     /* width: 18px;
@@ -216,6 +284,10 @@ footer .social-links a  {
     text-align: center;
 }
 
+footer .social-links a:hover  {
+    color: rgb(23, 41, 29);
+    background: rgb(112, 150, 36);   
+}
 
 @media (max-width: 960px) {
     .dev-info {
@@ -228,7 +300,7 @@ footer .social-links a  {
         /* margin-top: 75px; */
     }
 
-
+    
 
     /* .footer-home {
         background-color: rgba(155, 155, 155, 0.6)
