@@ -2,13 +2,14 @@
 /* best image size at least or so: 6016px x 4016px */
 :root {
     --branding-color: #8E8268;
-    --text-color: #F7F9FB;
-    --accent-color: yellow;
+    --text-color: #FBEEC1;
+    --accent-color: #bc986a;
     /* --background-color: #e7717D; */
+    
 }
 
 body {
-    background-image: url("/images-4/1B-TCR-wide.jpg");
+    background-image: url("/images-4/1-TCR2-wideA.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,6 +18,8 @@ body {
     background-color: gray;
     /* overflow: hidden;   */
 }
+
+
 
 h1, h2, h3 {
     color: var(--text-color); 
@@ -44,7 +47,7 @@ h4 {
 }
 
 p {
-    color: #F7F9FB;
+    color: #faf6e8;
 }
 
 .dev-info {
@@ -201,7 +204,7 @@ footer .contact {
 .footer-home-text {
     /* color: white; */
     /* color: rgb(255, 251, 2); */
-    color:rgb(170, 252, 7);
+    color: var(--text-color);
     padding: 0px 8px 10px 15px;
    background-color: rgba(23, 41, 29, 0.5);
    display: inline;
@@ -209,7 +212,8 @@ footer .contact {
 
 .footer-home .photo-credit {
     font-style: italic;
-    margin-top: 5px;
+    font-weight: lighter;
+    margin-top: 6px;
 }
 
 .black-text {
@@ -230,7 +234,7 @@ footer .contact {
 }
 
 .hyperlink-line:hover {
-    color: greenyellow;
+    color: #659dbd;
 }
 
 .contact-container h2 {
@@ -292,7 +296,7 @@ footer .social-links a  {
 
 footer .social-links a:hover  {
     color: rgb(23, 41, 29);
-    background: rgb(112, 150, 36);   
+    background: var(--accent-color);   
 }
 
 @media (max-width: 960px) {
