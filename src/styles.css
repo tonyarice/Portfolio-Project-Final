@@ -2,14 +2,17 @@
 /* best image size at least or so: 6016px x 4016px */
 :root {
     --branding-color: #8E8268;
-    --text-color: #FBEEC1;
+    /* --text-color: #FBEEC1; */
+    --text-color: #EDF5E1;
     --accent-color: #bc986a;
+    --hover-color: #8EE4AF;
     /* --background-color: #e7717D; */
     
 }
 
 body {
-    background-image: url("/images-4/1-TCR2-wideA.jpg");
+    /* background-image: url("/images-4/1-TCR16-wideA.jpg"); */
+    background-image: url("/images-4/1B-TCR-wide.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +25,7 @@ body {
 
 
 h1, h2, h3 {
-    color: var(--text-color); 
+    color: whitesmoke; 
     text-align: center;
     font-weight: lighter;
 }
@@ -47,7 +50,7 @@ h4 {
 }
 
 p {
-    color: #faf6e8;
+    color: white;
 }
 
 .dev-info {
@@ -167,7 +170,7 @@ hr {
 }
 
 .contact-section a:hover {
-    color: var(--accent-color);
+    color: var(--hover-color);
 }
 
 
@@ -231,19 +234,18 @@ footer .contact {
     color: rgb(22, 20, 20, 1);
 }
 
-
-
-
 /* depending upon background image */
-.hyperlink-line {
+.footer-home .hyperlink-line {
     /* color: rgb(209, 209, 209); */
     /* color: rgb(208, 253, 8); */
-    color: var(--accent-color);
-
+    /* color: var(--accent-color); */
+    color: #8EE4AF;
 }
 
-.hyperlink-line:hover {
-    color: #659dbd;
+.footer-home .hyperlink-line:hover {
+    /* color: #659dbd; */
+    /* color: #8EE4AF */
+    color: #FBEEC1;
 }
 
 .contact-container h2 {
@@ -288,7 +290,7 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-    color: var(--accent-color);   
+    color: var(--hover-color);   
 }
 
 footer .social-links a  {
@@ -305,7 +307,7 @@ footer .social-links a  {
 
 footer .social-links a:hover  {
     color: rgb(23, 41, 29);
-    background: var(--accent-color);   
+    background: var(--hover-color);   
 }
 
 @media (max-width: 960px) {
