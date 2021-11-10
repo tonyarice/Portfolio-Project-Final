@@ -310,7 +310,7 @@ footer .social-links a:hover  {
 
 @media (max-width: 960px) {
     .dev-info {
-        margin-top: 235px;
+        margin-top: 215px;
     }
 
     .dev-info h1 {
@@ -342,6 +342,11 @@ footer .social-links a:hover  {
     .certifications {
         text-align: center;
     }
+
+    /* .contact-section .transparent-field {
+        margin-top: 0px;
+        display: block;
+    } */
  
 }
 
