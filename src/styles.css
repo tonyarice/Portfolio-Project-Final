@@ -66,6 +66,14 @@ p {
     padding: 15px 20px;
 }
 
+a #work-btn {
+    padding-left: 20px;
+}
+
+#work-btn {
+    margin-right: 20px;
+}
+
 .about-section h2 {
     color: var(--text-color);
     font-size: 35px;
