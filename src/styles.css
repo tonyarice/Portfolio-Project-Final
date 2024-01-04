@@ -12,7 +12,7 @@
 
 body {
     /* background-image: url("/images-4/1-TCR16-wideA.jpg"); */
-    background-image: url("/images-4/1B-TCR-wide.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images-5/people-g1f1ca462c_1920.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -56,6 +56,7 @@ p {
     margin-top: 350px;
 }
 
+
 .btn-branding {
     border: 1px solid var(--branding-color);
     background-color: var(--branding-color);
@@ -73,12 +74,54 @@ a #work-btn {
     margin-right: 20px;
 }
 
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display:incline-block;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+.list-group.list-group-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-group.list-group-horizontal .list-group-item {
+    margin-bottom: 0;
+    margin-right: 0;
+    border-right-width: 0;
+}
+.list-group.list-group-horizontal .list-group-item:first-child {
+    border-top-right-radius:0;
+    border-bottom-left-radius:4px;
+}
+.list-group.list-group-horizontal .list-group-item:last-child {
+    border-top-right-radius:4px;
+    border-bottom-left-radius:0;
+    border-right-width: 1px;
+}
+
 .about-section h2 {
     color: var(--text-color);
     font-size: 35px;
     display: block;
-    margin-top: 56px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    /* margin-top: 105px; */
+    margin-bottom: 35px;
 }
 
 
@@ -98,10 +141,27 @@ a #work-btn {
     background: rgba(23, 41, 29, 0.9);
 }
 
+.about-pic {
+    border: 1px solid green;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 100%;
+}
+
+
 
 .projects h1 {
     font-size: 35px;
-    margin-top: 53px;
+    margin-top: 70px;
+    display: block; 
+}
+
+.more-projects h1 {
+    font-size: 35px;
+    margin-top: 50px;
     display: block; 
 }
 
@@ -134,6 +194,7 @@ a #work-btn {
 }
 
 
+
 /* .project-description {
     background-color:rgb(36, 35, 35);
 } */
@@ -147,10 +208,29 @@ hr {
     color: rgb(23, 41, 29);
 }
 
-.certifications p {
+/* .certifications p {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: larger;
+} */
+
+.certifications-section h2 {
+    color: var(--text-color);
+    font-size: 35px;
+    display: block;
+    /* margin-top: 56px; */
+    margin-top: 205px;
+    margin-bottom: 50px;
+}
+
+.certifications-section p {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    margin: 25 auto;
+    padding: 0 150px 0 150px;
+    /* background: rgba(0, 0, 0, 0.9) */
+    /* background: lightgrey; */
 }
 
 .transparent {
@@ -158,6 +238,40 @@ hr {
     opacity: 0.5;
     /* background: rgba(0, 0, 0, 0.9) */
 }
+
+
+a #ux-btn {
+    padding-left: 100px;
+}
+
+#ux-btn {
+    margin-right: 100px;
+}
+
+/* a #websites-btn {
+    padding-left: 20px;
+} */
+
+#websites-btn {
+    margin-right: 100px;
+}
+
+/* a #books-btn {
+    padding-left: 20px;
+} */
+
+#books-btn {
+    margin-right: 100px;
+}
+
+/* a #cert-btn {
+    padding-left: 20px;
+} */
+
+#cert-btn {
+    margin-right: 100px;
+}
+
 
 .contact-section h2 {
     color: var(--text-color);
@@ -199,6 +313,11 @@ hr {
 /* footer .contact {
     margin-top: 175px;
 } */
+
+.resume p {
+    font-size: 13px;
+
+}
 
 .footer-home {
     position: fixed;
@@ -340,6 +459,8 @@ footer .social-links a:hover  {
     .black-text {
         color: rgba(0, 0, 0, 1);    
     }
+
+
 
     .about-section p {
         text-align: center;
