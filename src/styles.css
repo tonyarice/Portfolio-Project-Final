@@ -151,6 +151,17 @@ ul {
     width: 100%;
 }
 
+.about-section a {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+
+
 
 
 .projects h1 {
