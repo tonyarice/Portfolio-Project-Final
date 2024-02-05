@@ -149,6 +149,7 @@ ul {
     margin-left: 100px;
     margin-right: auto;
     width: 100%;
+    filter: grayscale(0%);
 }
 
 .about-section a {
